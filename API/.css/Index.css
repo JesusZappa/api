@@ -1,0 +1,24 @@
+html,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/736x/dc/59/f8/dc59f887b25c31997f42e1daff2860ed.jpg");
+
+}
+
+.search_container {
+    padding: 30px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: black (6, 24, 44, 0.4);
+    0px 0px 0px 2px
+}
