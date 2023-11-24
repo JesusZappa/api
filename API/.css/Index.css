@@ -22,3 +22,23 @@ header {
     box-shadow: black (6, 24, 44, 0.4);
     0px 0px 0px 2px
 }
+
+.search_input {
+    background: #ffffff;
+    padding: 7px 10px;
+    border-radius: 20px;
+    width: 200px;
+    border: 1px solid lightgrey;
+    outline: none;
+    margin-right: 5px;
+}
+
+.search_btn {
+    background: #2185d0;
+    padding: 0.8571429em 1.5em 0.78571429em;
+    border: none;
+    border-radius: 6px;
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+}
