@@ -42,3 +42,36 @@ header {
     font-weight: 700;
     cursor: pointer;
 }
+
+/*character_section*/
+
+.character_section{
+
+    height:  calc(100vh - 150px);
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.grid{
+max-width: 1200px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+/* estilo card*/
+
+.character_car{
+margin: 10px;
+border: 2px solid black;
+border-radius: 6px;
+width:  250px;
+height: 350px;
+overflow: hidden;
+background: #ffffff;
+box-shadow: 6px 23px 51px -7px rgba(0,0,0,0.48);
+-webkit-box-shadow: 6px 23px 51px -7px rgba(0,0,0,0.48);
+-moz-box-shadow: 6px 23px 51px -7px rgba(0,0,0,0.48);
+}
