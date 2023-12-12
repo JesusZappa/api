@@ -45,33 +45,58 @@ header {
 
 /*character_section*/
 
-.character_section{
+.character_section {
 
-    height:  calc(100vh - 150px);
+    height: calc(100vh - 150px);
     display: flex;
     justify-content: center;
     overflow-y: auto;
     overflow-x: hidden;
 }
 
-.grid{
-max-width: 1200px;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+.grid {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* estilo card*/
 
-.character_car{
-margin: 10px;
-border: 2px solid black;
-border-radius: 6px;
-width:  250px;
-height: 350px;
-overflow: hidden;
-background: #ffffff;
-box-shadow: 6px 23px 51px -7px rgba(0,0,0,0.48);
--webkit-box-shadow: 6px 23px 51px -7px rgba(0,0,0,0.48);
--moz-box-shadow: 6px 23px 51px -7px rgba(0,0,0,0.48);
+.character_car {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 250px;
+    height: 350px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 6px 23px 51px -7px rgba(0, 0, 0, 0.48);
+    -webkit-box-shadow: 6px 23px 51px -7px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow: 6px 23px 51px -7px rgba(0, 0, 0, 0.48);
+}.
+
+.img_container{
+
+    height: 60%;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.character_img {
+height: 100%;
+width: 100%;
+object-fit: contain;
+
+
+}
+
+.info_character {
+    background: #ffffff;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+
 }
