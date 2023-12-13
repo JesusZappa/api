@@ -74,19 +74,21 @@ header {
     box-shadow: 6px 23px 51px -7px rgba(0, 0, 0, 0.48);
     -webkit-box-shadow: 6px 23px 51px -7px rgba(0, 0, 0, 0.48);
     -moz-box-shadow: 6px 23px 51px -7px rgba(0, 0, 0, 0.48);
-}.
+}
 
-.img_container{
-
+. .img_container {
+    align-items: center !important;
     height: 60%;
     width: 100%;
     border-bottom: 1px solid black;
 }
 
 .character_img {
-height: 100%;
-width: 100%;
-object-fit: contain;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
 
 
 }
