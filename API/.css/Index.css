@@ -56,6 +56,7 @@ header {
 
 .grid {
     max-width: 1200px;
+    max-width: 1600px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -84,13 +85,9 @@ header {
 }
 
 .character_img {
-    margin-left: 5%;
-    margin-right: 5%;
-    height: 50%;
-    width: 50%;
+    height: 150px;
+    width: 250px;
     object-fit: contain;
-
-
 }
 
 .info_character {
@@ -102,3 +99,4 @@ header {
     padding: 10px;
 
 }
+
